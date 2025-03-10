@@ -9,7 +9,7 @@ Below are the steps to integrate the [asv_wave_sim](https://github.com/srmainwar
 4. Place the gz_ws folder into the PX4-Autopilot folder.
 5. Add [this modified waves.sdf file](https://pastebin.com/ududh4dR) to the PX4-Autopilot/Tools/simulation/gz/worlds folder
 6. `cd PX4-Autopilot/gz_ws`
-7. 'source ./install/setup.bash'
+7. `source ./install/setup.bash`
 8. Set environment variables
    
 ```
