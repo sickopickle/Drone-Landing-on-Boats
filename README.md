@@ -1,4 +1,4 @@
-# Drone-Landing-on-Boats
+# Drone Landing on Boats with PX4 and Gazebo
 Simulation of the landing of PX4 quadcopters—equipped with a gimbal/camera and carrying parcels—on boats in a Gazebo wave environment using novel reinforcement learning techniques
 
 Below are the steps to integrate the [asv_wave_sim](https://github.com/srmainwaring/asv_wave_sim) world with a PX4 drone on Ubuntu 24.04:
