@@ -34,5 +34,6 @@ $HOME/PX4-Autopilot/gz_ws/src/asv_wave_sim/gz-waves/src/gui/plugins/waves_contro
 
 9. Install QGroundControl https://docs.px4.io/main/en/dev_setup/qgc_daily_build.html 
 10. Open terminal and run ./QGroundControl.AppImage 
-11. Open a new terminal window and run `PX4_SYS_AUTOSTART=4001 PX4_GZ_WORLD=waves PX4_GZ_MODEL_POSE="0,0,5" PX4_SIM_MODEL=gz_x500_gimbal ./build/px4_sitl_default/bin/px4` to spawn a drone with gimbal above wam-v
-12. Wait a few seconds and QGroundControl will display "Ready To Fly". 
+11. Open a new terminal window and run `PX4_GZ_WORLD=waves PX4_GZ_MODEL_POSE="0,0,1.5" make px4_sitl gz_x500_gimbal`
+12. Close the Gazebo window that was just opened and run `PX4_SYS_AUTOSTART=4001 PX4_GZ_WORLD=waves PX4_GZ_MODEL_POSE="0,0,5" PX4_SIM_MODEL=gz_x500_gimbal ./build/px4_sitl_default/bin/px4` to spawn a drone with gimbal above wam-v (this step improves the latency of the camera)
+13. Wait a few seconds and QGroundControl will display "Ready To Fly". 
